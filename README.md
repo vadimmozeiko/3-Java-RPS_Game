@@ -21,6 +21,8 @@ You can select "Statistics" at any point of the game to see current results.
 
 To exit, press "0". At the end the statistics will be generated.
 
+![screenshot](./src/screenshots/nd3-p.JPG)
+
 
 _Computer vs Computer_
 
@@ -30,7 +32,7 @@ Computer will randomly generate i.e. 500 games with random choices for two playe
 
 After all games are played, statistics will be generated to see results.
 
-
+![screenshot](./src/screenshots/nd3-c.JPG)
 
 ## Project goals
 
