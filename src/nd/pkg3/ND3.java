@@ -51,9 +51,9 @@ private static DecimalFormat df = new DecimalFormat("0.00");
                 } else {
                     double computerInput = Math.random();
                     int computerChoice = (int) (computerInput * 3 + 1);
-                    System.out.println(computerChoice);
 
                     if (computerChoice == 1) {
+                        System.out.println("Computer choice: Rock");
                         if (input == 1) {
                             System.out.println("TIE");
                             tie++;
@@ -65,6 +65,7 @@ private static DecimalFormat df = new DecimalFormat("0.00");
                             computerWon++;
                         }
                     } else if (computerChoice == 2) {
+                        System.out.println("Computer choice: Paper");
                         if (input == 1) {
                             System.out.println("Computer WON");
                             computerWon++;
@@ -76,6 +77,7 @@ private static DecimalFormat df = new DecimalFormat("0.00");
                             playerWon++;
                         }
                     } else if (computerChoice == 3) {
+                        System.out.println("Computer choice: Scissors");
                         if (input == 1) {
                             System.out.println("Player WON");
                             playerWon++;
