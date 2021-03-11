@@ -1,0 +1,14 @@
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+**/nbproject/build-impl.xml
+**/nbproject/project.properties
+**/nbproject/project.xml
+**/nbproject/genfiles.properties
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+build.xml
+manifest.mf
